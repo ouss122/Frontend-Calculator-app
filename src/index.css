@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+
+.btn:hover{
+  box-shadow: inset 0 0px 100px rgba(255, 255, 255, 0.2),
+  0 4px 0 var(--tw-shadow-color)
+  ;
+}
+.btna::after{
+  @apply -top-6 ml-[2.5px] absolute h-5 w-5 
+}
